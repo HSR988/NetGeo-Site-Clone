@@ -1,0 +1,27 @@
+﻿a.white{
+    background-color: white;
+    color:black;
+}
+
+.white:hover{
+    color:black;
+}
+
+nav ul li a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+.whiteArrow, .whiteArrow1, .whiteArrow2, .whiteArrow3, .whiteArrow4, .whiteArrow5, .whiteArrow6, .whiteArrow7, .whiteArrow8{
+    padding:17px 9px;
+    background-color: #333333;
+    color:white;
+}
+
+.GreyArrow {
+    text-decoration:none;
+    color:lightgray;
+    padding: 15px 9px;
+}
+
+

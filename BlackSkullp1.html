@@ -1,0 +1,424 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <!--All Color and hover related info is stored-->
+    <link href="ColorPropertiesp1.css" rel="stylesheet" />
+
+    <!--All size related info is stored-->
+    <link href="SizePropertiesp1.css" rel="stylesheet" />
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Optional theme -->
+    <link href="../Content/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <!--Jquery script-->
+    <script src="../Scripts/jquery-3.1.1.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="#"><img alt="Brand" src="nglogo.png" style="position:absolute; left:80px; top:15px;" width="146" height="33"></a>
+            <!--Logo resolution divided by 12-->
+            <div class="inner-addon right-addon ">
+               
+                <span><input type="text" class="form-control" placeholder="Search"><span class="search glyphicon glyphicon-search" style="position:absolute;  left:84%;top:14px;"></span></span>
+            </div>
+            <button type="button" class="button signIn">Sign In or Join</button>
+        </div> <!--navigation bar-->
+
+
+        <div class="navbar" data-spy="affix" data-offset-top="30">
+            <span class="white1">
+                <a href="#" class="parts">Climate Change</a>
+            </span>
+            <span class="white2">
+                <a href="#" class="divider">A Way Forward</a>
+            </span>
+            <span class="white3">
+                <a href="#"><span class="indexHack">Carbon Free America</span></a>
+            </span>
+            <span class="white4">
+                <a href="#"><span class="indexHack">Carbon Free World</span></a>
+            </span>
+            <a href="#home" class="glyphicon glyphicon-arrow-up"></a>
+            <a href="#news" class="glyphicon glyphicon-comment"></a>
+            <a href="#contact" class="glyphicon glyphicon-share-alt"></a>
+        </div> <!--menu under navigation bar-->
+
+    
+        <div class="navbar navbar1" data-spy="affix" data-offset-top="30">
+            <span class="blue1">
+                <select name="select1" onmousedown="if(this.options.length>5){this.size=5;}" onchange='this.size=0;' onblur="this.size=0;">
+                    <option value="one">Select A State</option>
+                    <option value="two">Alabama</option>
+                    <option value="three">Arizona</option>
+                    <option value="four">Arkansas</option>
+                    <option value="five">California</option>
+                    <option value="siz">Colorado</option>
+                    <option value="seven">Connecticut</option>
+                    <option value="eigth">Idaho</option>
+                    <option value="nine">Illinos</option>
+                    <option value="ten">Lowa</option>
+                    <option value="eleven">Kentucky</option>
+                    <option value="twelve">Maine</option>
+                </select>
+            </span>
+            <spam class="textCenter"><a style="position:absolute; left:40%;">Project Energy Mix By 2050</a></spam>
+        </div> <!--Second scroll navigation replacing original navigation-->
+
+        <!--Third scroll navigation replacing 2nd navigation-->
+        
+        <div>
+            <nav>
+                <a href="#" class="nav-toggle-btn"><div class="border-menu">MENU</div></a><!--created a nav button-->
+
+                <ul>
+                    <li>
+                        <a class="white" href="#">Sign In</a>
+                        <div style="position :absolute; top:69px; right: 0px;"><a  id="mybtn" class="glyphicon glyphicon-menu-right GreyArrow" aria-hidden="true" ></a></div>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="#">Video</a>
+                        <div class="navbar-right" style="position:absolute; top:170px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow" aria-hidden="true"></a>
+                            <nav class="subnav" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Video Home</a></li>
+                                    <li><a href="#">Nat Geo Tv</a></li>
+                                    <li><a href="#">Kids</a></li>
+                                    <li><a href="#">Animals</a></li>
+                                    <li><a href="#">Movies</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Photography</a>
+                        <div class="navbar-right" style="position:absolute; top:221px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow1" aria-hidden="true"></a>
+                            <nav class="subnav1" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Photography Home</a></li>
+                                    <li><a href="#">Picture Stories</a></li>
+                                    <li><a href="#">Photo of the Day</a></li>
+                                    <li><a href="#">Your Shot</a></li>
+                                    <li><a href="#">Galleries</a></li>
+                                    <li><a href="#">Animals</a></li>
+                                    <li><a href="#">Photo Tips</a></li>
+                                    <li><a href="#">Photographers</a></li>
+                                    <li><a href="#">Buy prints</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">The Magazine</a>
+                        <div class="navbar-right" style="position:absolute; top:272px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow2" aria-hidden="true"></a>
+                            <nav class="subnav2" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Current Issue</a></li>
+                                    <li><a href="#">Complete Archive</a></li>
+                                    <li><a href="#">Nat Geo PLUS</a></li>
+                                    <li><a href="#">Subscribe</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Environment</a>
+                        <div class="navbar-right" style="position:absolute; top:323px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow3" aria-hidden="true"></a>
+                            <nav class="subnav3" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Environment Home</a></li>
+                                    <li><a href="#">Energy</a></li>
+                                    <li><a href="#">Freshwater</a></li>
+                                    <li><a href="#">Climate Change</a></li>
+                                    <li><a href="#">Habitats</a></li>
+                                    <li><a href="#">Natural Disasters</a></li>
+                                    <li><a href="#">The Ocean</a></li>
+                                    <li><a href="#">Animal Conservation</a></li>
+                                    <li><a href="#">Big Cats Initiative</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Travel</a>
+                        <div class="navbar-right" style="position:absolute; top:374px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow4" aria-hidden="true"></a>
+                            <nav class="subnav4" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Travel Home</a></li>
+                                    <li><a href="#">Top 10</a></li>
+                                    <li><a href="#">Destinations A-Z</a></li>
+                                    <li><a href="#">Trip Ideas</a></li>
+                                    <li><a href="#">Travel Blogs</a></li>
+                                    <li><a href="#">Travel Magazine</a></li>
+                                    <li><a href="#">Photos</a></li>
+                                    <li><a href="#">Video</a></li>
+                                    <li><a href="#">Our Trips</a></li>
+                                    <li><a href="#">Our Lodges</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Adventure</a>
+                        <div class="navbar-right" style="position:absolute; top:425px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow5" aria-hidden="true"></a>
+                            <nav class="subnav5" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Adventure Home</a></li>
+                                    <li><a href="#">Gear</a></li>
+                                    <li><a href="#">Ultimate Advanture</a></li>
+                                    <li><a href="#">Trip Ideas</a></li>
+                                    <li><a href="#">Parks</a></li>
+                                    <li><a href="#">Photos</a></li>
+                                    <li><a href="#">Video</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Nat Geo Trips</a></li>
+                                    <li><a href="#">Trail Maps</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Television</a>
+                        <div class="navbar-right" style="position:absolute; top:476px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow6" aria-hidden="true"></a>
+                            <nav class="subnav6" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Television Home</a></li>
+                                    <li><a href="#">Nat Geo Wild</a></li>
+                                    <li><a href="#">TV Schedule</a></li>
+                                    <li><a href="#">Shows</a></li>
+                                    <li><a href="#">Video</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Subscribe</a>
+                        <div class="navbar-right" style="position:absolute; top:527px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow7" aria-hidden="true"></a>
+                            <nav class="subnav7" id="sidenav">
+                                <ul>
+                                    <li><a href="#">National Geograghic Magazine</a></li>
+                                    <li><a href="#">National Geograghic Kids</a></li>
+                                    <li><a href="#">National Geograghic Little Kids</a></li>
+                                    <li><a href="#">National Geograghic Traveller</a></li>
+                                    <li><a href="#">National Geograghic History</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                        <div class="navbar-right" style="position:absolute; top:578px; right:15px">
+                            <a id="mybtn" class="glyphicon glyphicon-menu-right whiteArrow8" aria-hidden="true"></a>
+                            <nav class="subnav8" id="sidenav">
+                                <ul>
+                                    <li><a href="#">Store Home</a></li>
+                                    <li><a href="#">Genographic Kits</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">New</a></li>
+                                    <li><a href="#">Kids Shop</a></li>
+                                    <li><a href="#">Gift Finder</a></li>
+                                    <li><a href="#">Channel Shop</a></li>
+                                    <li><a href="#">Sale</a></li>
+                                    <li><a href="#">Shop by Catalog</a></li>
+                                    <li><a href="#">Email Catalog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div> <!--left button menu icon and menu items-->
+    </header>
+
+
+
+    <div class="content">
+        <div>
+            <a class="Goto" href="#">ABOUT THIS PROJECT</a>
+            <img class="FreeAmerica" src="greenpower.jpg" height="650" width="1600" />
+        </div> <!--Content of First Page -->
+        <div>
+            <div class="BigScreen1">            
+                <button class="Bt1"><p>64% SOLAR PLANT</p></button>
+                <button class="Bt2"><p>10% CSP PLANT</p></button>
+                <button class="Bt3"><p>10% OFFSHORE WIND</p></button>
+                <button class="Bt4"><p>5% ONSHORE WIND</p></button>
+                <button class="Bt5"><p>4% HYDRA PLANT</p></button>
+                <button class="Bt6"><p>3% RESIDENTIAL ROOFTOP PV</p></button>
+                <button class="Bt7"><p>2% COMMERCIAL ROOFTOP PV</p></button>
+            </div>
+        </div> <!--Content of Second Page-->
+        <div>
+            <div class="BigScreen2">
+                <a class="Nature">
+                    <ul class="NatSub">
+                        <li><p class="button NatSubBt1">WIND</p></li>
+                        <li><p class="button NatSubBt2">SOLOR</p></li>
+                        <li><p class="button NatSubBt3">WATER</p></li>
+                        <li><p class="button NatSubBt4">GEOTHERMAL</p></li>
+                    </ul>
+                </a>
+                <a class="Tech">
+                    <ul class="TecSub">
+                        <li><p class="button TecSubBt1"><strong>ONSHORE WIND</strong></p></li>
+                        <li><p class="button TecSubBt2"><strong>OFFSHORE WIND</strong></p></li>
+                        <li><p class="button TecSubBt3"><strong>RESIDENTIAL ROOFTOP PV</strong></p></li>
+                        <li><p class="button TecSubBt4"><strong>COMMERCIAL/ GOV ROOFTOP PV</strong></p></li>
+                        <li><p class="button TecSubBt5"><strong>SOLAR PLANTS</strong></p></li>
+                        <li><p class="button TecSubBt6"><strong>CSP PLANTS</strong></p></li>
+                        <li><p class="button TecSubBt7"><strong>WAVE DEVICE</strong></p></li>
+                        <li><p class="button TecSubBt8"><strong>HYDRA PLANT</strong></p></li>
+                        <li><p class="button TecSubBt9"><strong>TURBINE</strong></p></li>
+                        <li><p class="button TecSubBt10"><strong>GEO PLANT</strong></p></li>
+                    </ul>
+                </a>
+                <a class="USAMap"><img src="map.png"/></a>
+
+            </div>
+        </div> <!--Content of Third Page-->
+        <div>
+            <div class="Resource">
+                <a><img src="Resource.png"/></a>
+            </div>
+        </div><!--Content of Forth Page-->
+    </div>
+
+    <!--<br /><footer><a><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>2017</a></footer>-->
+
+    <script type="text/javascript">
+
+        (function() {
+
+            var bodyEl = $('body'),
+               navToggleBtn = bodyEl.find('.nav-toggle-btn');
+
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav');
+                e.preventDefault();
+            });
+        })();
+        
+        (function () {
+
+            var bodyE3 = $('body'),
+               whiteArrow1 = bodyE3.find('.whiteArrow1');
+
+            whiteArrow.on('click', function (e) {
+                bodyE3.toggleClass('active-subnav1');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow2');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav2');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow3');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav3');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow4');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav4');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow5');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav5');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow6');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav6');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow7');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav7');
+                e.preventDefault();
+            });
+        })();
+
+        (function () {
+
+            var bodyE2 = $('body'),
+               whiteArrow = bodyE2.find('.whiteArrow8');
+
+            whiteArrow.on('click', function (e) {
+                bodyE2.toggleClass('active-subnav8');
+                e.preventDefault();
+            });
+        })();
+
+    </script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>
